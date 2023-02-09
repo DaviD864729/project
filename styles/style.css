@@ -4,19 +4,26 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.container{
+body{
+    
+}
+.container {
     width: 1400px;
     margin: 0 auto;
 }
 
-a{
+button {
+    border: none;
+}
+
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
@@ -75,6 +82,222 @@ li{
 
 /*------------------------------------------------------------------  Sec4 start -------------------------------------------- */
 
+.section_students {
+    width: 1920px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 150px
+}
+
+.box_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box_info_title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 74px;
+    color:#242323;
+}
+
+.box_span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 74px;
+    color: #424232;
+}
+
+.box_students {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_left {
+    margin: 0 auto;
+    width: 695px;
+    height: 591px;
+    background: #FFFFFF;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+    box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+    border-radius: 15px;
+    margin-top: -190px;
+}
+
+.box_left:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    width: 695px;
+    height: 591px;
+    background: #FFFFFF;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+    box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+    border-radius: 15px;
+
+}
+
+.info_student-left {
+    width: 592px;
+    height: 428px;
+    margin: 0 auto;
+
+}
+
+.img_left {
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding-top: 82px;
+}
+
+.text_student_left {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #8C8E90;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.title_name_left {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 10px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #242323;
+}
+
+.about_student_left {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #636262;
+}
+
+.box_right {
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+    border-radius: 15px;
+    width: 650px;
+    height: 390px;
+}
+
+.box_right:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+    border-radius: 15px;
+    width: 650px;
+    height: 390px;
+}
+
+.box_right_info_one {
+    width: 559px;
+    height: 283px;
+    margin: 0 auto;
+}
+
+.img_adam {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+
+
+.box_rightl {
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+    border-radius: 15px;
+    width: 650px;
+    height: 390px;
+}
+
+.box_rightl:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+    border-radius: 15px;
+    width: 650px;
+    height: 390px;
+}
+
+.box_right_info_two {
+    width: 559px;
+    height: 283px;
+    margin: 0 auto;
+}
+
+.img_kamil {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.text_student_right {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-left: 50px;
+
+    color: #8C8E90;
+}
+
+.title_name_right {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.2821px;
+    line-height: 6px;
+    /* identical to box height, or 33% */
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #242323;
+}
+
+.about_student_right {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8548px;
+    line-height: 1px;
+    /* or 5% */
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #636262;
+}
+
+
 /*------------------------------------------------------------------  Sec4 end -------------------------------------------- */
 
 
@@ -83,10 +306,107 @@ li{
 
 /*------------------------------------------------------------------  Footer start -------------------------------------------- */
 
+
+#footer {
+    width: 1425px;
+    height: 438px;
+    background-image: url(../images/footer--bg.png);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 35px;
+}
+
+.footer_box {
+    text-align: center;
+    width: 725px;
+    height: 133px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+.title_footer {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    /* or 136% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.btn_link {
+    width: 382px;
+    height: 61px;
+    margin: 0 auto;
+    margin-top: 212px;
+}
+
+.link_button_one {}
+
+.btn_footer_one {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+
+    border-radius: 5px;
+    border: none;
+
+    width: 147px;
+    height: 60px;
+    background: #FFFFFF;
+}
+
+.btn_footer_one:hover {
+    cursor: pointer;
+    border: none;
+
+    border-radius: 5px;
+    border: none;
+    opacity: 0.5;
+}
+
+.link_button_two {}
+
+.btn_footer_two {
+    border: none;
+    width: 205px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    /* identical to box height, or 75% */
+
+
+    color: #242323;
+}
+
+.btn_footer_two:hover {
+    border: none;
+    cursor: pointer;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    /* identical to box height, or 75% */
+
+
+    color: #242323;
+}
+
+
 /*------------------------------------------------------------------  Footer end -------------------------------------------- */
-
-
-
-
-
-
