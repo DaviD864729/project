@@ -66,6 +66,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 50px;
 }
 
 .card1--ul {
